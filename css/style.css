@@ -69,6 +69,7 @@ body {
    list-style: none;
    margin-top: 0px;
    margin-bottom: 0px;
+   padding-left: 0px;
 }
 
 
@@ -112,9 +113,15 @@ body {
 
 /* sections */
 
+.section {
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
 
 
 .section-title {
+   margin-top: 0px;
+   margin-bottom: 50px;
    font-weight: 700;
    font-size: 36px;
    line-height: 1.17;
@@ -154,6 +161,8 @@ body {
 /* заголовок имеет дефолтные стили браузера, по этмоу нужно переопределить явно */
 
 .features-list .title {
+   margin-top: 0px;
+   margin-bottom: 10px;
    font-weight: 700;
    font-size: 14px;
    line-height: 1.14;
@@ -161,7 +170,11 @@ body {
    color: var(--secondary-color);
 }
 
-.features-list .text { line-height: 1.71; }
+.features-list .text {
+   line-height: 1.71;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
 
 
 
@@ -171,13 +184,22 @@ body {
 
 .team { background-color: var(--alternative-bg-color); }
 
+.list .team-item { background-color: var(--primary-bg-t-color); }
+
+
+.section .team-foto{
+   margin-bottom: 30px;
+}
+
 .section .team-title {
+   margin-bottom: 10px;
    font-weight: 500;
    font-size: 16px;
    line-height: 1.19;
    color: var(--secondary-color);
 }
 .section .team-text {
+   margin: 0px;
    font-size: 16px;
    line-height: 1.19;
 }
@@ -187,10 +209,20 @@ body {
 
 /* футер */
 
+.page-footer {
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
 
+.page-footer .logo{
+   margin-bottom: 20px;
+   display: inline-block;
+}
 
 
 .page-footer .contact-item {
+   display: inline-block;
+   margin-bottom: 10px;
    font-weight: 400;
    font-style: normal;
    line-height: 1.71;
@@ -220,6 +252,7 @@ body {
 /* кнопка  "героев"*/
 
 .button {
+   padding: 10px 32px;
    font-family:inherit;
    font-weight: 700;
    font-size: 16px;
@@ -229,6 +262,7 @@ body {
    background: var(--accent-color);
    border-radius: 4px;
    cursor: pointer;
+   border: none;
 }
 
 .button:hover, 
@@ -245,9 +279,25 @@ body {
 /* портофолио */
 
 
+.portfolio-title {
+   margin: 0px;
+}
+
+.list.menu {
+   margin-bottom: 50px;
+}
+
+
 .card {text-decoration: none;}
 
+.card > img {
+   margin-bottom: 20px;
+
+}
+
 .card .title {
+   margin-top: 0px;
+   margin-bottom: 5px;
    font-weight: 700;
    font-size: 18px;
    line-height: 2.0;
@@ -256,6 +306,8 @@ body {
 }
 
 .card .text {
+   margin-top: 0px;
+   margin-bottom: 0px;
    font-size: 16px;
    line-height: 1.87;
    letter-spacing: 0.03em;
@@ -278,6 +330,7 @@ body {
 
 
 .btm {
+   padding: 6px 22px;
    display: inline-block;
    font-family: inherit;
    font-weight: 500;
@@ -287,6 +340,7 @@ body {
    color: var(--secondary-color);
    background-color: var(--alternative-bg-color);
    border-radius: 4px;
+   border: none;
 }
 
 .btm:hover, 
