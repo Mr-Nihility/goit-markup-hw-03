@@ -43,7 +43,6 @@ body {
    margin-left: auto;
    margin-right: auto;
    padding: 0 15px;
-   outline: 1px solid rgb(231, 112, 7);
 }
 
 .list {
@@ -96,9 +95,6 @@ body {
 
    padding-top: 32px;
    padding-bottom: 32px;
-
-   outline: 1px solid blueviolet;
-
 }
 
 .list .list-item:not(:last-child) {
@@ -169,6 +165,8 @@ body {
 
 /* герои  */
 .hero {
+   padding-top: 200px;
+   padding-bottom: 200px;
    text-align: center;
 }
 
@@ -198,7 +196,6 @@ body {
 
 .features-list .list-item {
    width: calc((100% - 90px)/4);
-   outline: 1px solid seagreen;
 }
 
 .features-list .list-item:not(:last-child) {
