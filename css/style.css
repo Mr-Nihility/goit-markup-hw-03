@@ -55,11 +55,15 @@ body {
 /* ====================================================================================================================================================== */
 
 /* шапка сайта */
+.hat {
+   border-bottom: 1px solid #ECECEC;
+}
+
 .header-container {
    display: flex;
    align-items: center;
 
-   border-bottom: 1px solid #ECECEC;
+
 }
 /* логотип */
 
@@ -170,7 +174,10 @@ body {
    text-align: center;
 }
 
-.hero>h1 {
+.hero-title {
+   width: 696px;
+   margin-right: auto;
+   margin-left: auto;
    margin-top: 0px;
    margin-bottom: 90px;
    font-weight: 900;
@@ -220,9 +227,7 @@ body {
 }
 
 /* преимущества */
-.features-title {
-   display: none;
-}
+
 
 /* чем мы занимаемся  */
 
@@ -362,7 +367,6 @@ body {
 
 .portfolio-title {
    margin: 0px;
-   display: none; 
    /* скрыл заголовок */
 }
 
