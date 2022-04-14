@@ -125,7 +125,7 @@ svg {
    text-decoration: none;
 
    padding-top: 32px;
-   padding-bottom: 32px;
+   padding-bottom: 31px;
 }
 
 .list .list-item:not(:last-child) {
@@ -444,7 +444,7 @@ svg {
 }
 
 .work-descr {
-   padding: 20px 24px;
+   padding: 20px 23px;
    border: 1px solid #EEEEEE;
    border-top: none;
 }
@@ -452,6 +452,7 @@ svg {
 .card .title {
    margin-bottom: 5px;
    font-weight: 700;
+   letter-spacing: 0.06;
    font-size: 18px;
    line-height: 2.0;
    /* letter-spacing: 0.06em; */
